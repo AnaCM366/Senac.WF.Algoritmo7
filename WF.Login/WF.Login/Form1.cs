@@ -16,7 +16,7 @@ namespace WF.Login
         {
             var resposta = MessageBox.Show("Deseja encerrar o programa?",
                 "Sair",
-                MessageBoxButtons.YesNo, 
+                MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question);
             if (resposta == DialogResult.Yes)
             {
@@ -61,6 +61,11 @@ namespace WF.Login
         {
             if (textBox2.Text == string.Empty)
                 textBox2.Text = "Senha";
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
         }
     }
 }

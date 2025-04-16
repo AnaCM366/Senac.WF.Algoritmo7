@@ -181,6 +181,7 @@
             Name = "Form1";
             Opacity = 0.85D;
             Text = "Form1";
+            FormClosing += Form1_FormClosing;
             Load += Form1_Load;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
