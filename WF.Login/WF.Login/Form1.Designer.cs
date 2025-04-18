@@ -107,6 +107,7 @@
             button1.TabIndex = 3;
             button1.Text = "Entrar";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // linkLabel1
             // 
@@ -178,6 +179,7 @@
             Controls.Add(label1);
             Controls.Add(label2);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Opacity = 0.85D;
             Text = "Form1";

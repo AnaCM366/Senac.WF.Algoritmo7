@@ -63,6 +63,56 @@ namespace WF.Login.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1298747_instagram_brand_logo_social_media_icon {
+            get {
+                object obj = ResourceManager.GetObject("1298747_instagram_brand_logo_social media_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1760345_food_pizza_snack_icon {
+            get {
+                object obj = ResourceManager.GetObject("1760345_food_pizza_snack_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1760345_food_pizza_snack_icon__1_ {
+            get {
+                object obj = ResourceManager.GetObject("1760345_food_pizza_snack_icon (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3558094_bake_bread_fast_food_pizza_icon {
+            get {
+                object obj = ResourceManager.GetObject("3558094_bake_bread_fast_food_pizza_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3558094_bake_bread_fast_food_pizza_icon__1_ {
+            get {
+                object obj = ResourceManager.GetObject("3558094_bake_bread_fast_food_pizza_icon (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap botao_saida {
             get {
                 object obj = ResourceManager.GetObject("botao saida", resourceCulture);
