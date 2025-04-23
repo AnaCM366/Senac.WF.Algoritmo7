@@ -21,5 +21,23 @@ namespace WF.Login
         {
 
         }
+
+        private void FormPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnProdutos_Click(object sender, EventArgs e)
+        {
+            // oculta a tela principal
+            this.Hide();
+            // cria tela de produtos e a exibe
+            new FormProdutos().Show();
+        }
     }
 }
